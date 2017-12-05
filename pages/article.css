@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+	margin-bottom: 35px;
+}
+
+.clearfix::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+#navBar {
+    position: fixed;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+#navBar h2 {
+	font: bold 20px Merriweather;
+	text-align: center;
+	color: #0c408f;
+	padding: 10px 20px;
+}
+
+.nav-brand {
+    width: 70px;
+}
+
+h1 {
+	font-family: Merriweather, serif;
+	color: #0c408f;
+	padding-top: 70px;
+	padding-left: 20px;
+}
+
+.container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 2px;
+}
+
+.article-element {
+	display: block;
+	margin-top: 20px;
+	padding: 15px 20px;
+	background-color: #e3e3e3;
+}
+
+.article-element a {
+	text-decoration: none;
+}
+
+.article-element a:hover {
+	color: #516cdb;
+}
+
+.article-element p {
+	padding: 7px 0px;
+}
+
+.article-edit {
+	margin-left: 5px;
+}
+
+.article-delete, .article-edit {
+	padding: 5px 10px;
+	font-family: Merriweather, serif;
+	background-color: #0c408f;
+	color: white;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.article-delete:hover, .article-edit:hover {
+	background-color: #4665c2;
+}
+
+footer {
+    width: 100%;
+    background-color: #d6d6d6;
+    color: #0c408f;
+    padding: 10px 12px;
+    font: bold 16px Arial;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}

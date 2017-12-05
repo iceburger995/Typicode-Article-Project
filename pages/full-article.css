@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+	margin-bottom: 35px;
+}
+
+.clearfix::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+#navBar {
+    position: fixed;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+#navBar h2 {
+	font: bold 20px Merriweather;
+	text-align: center;
+	color: #0c408f;
+	padding: 10px 20px;
+}
+
+.nav-brand {
+    width: 70px;
+}
+
+.container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 2px;
+}
+
+#single-article-content {
+    display: block;
+    padding-top: 70px;
+    background-color: #e3e3e3;
+}
+
+.single-article-title {
+    text-align: center;
+    font-family: Merriweather, serif;
+    color: #0c408f;
+}
+
+.single-article-body {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f0eded;
+}
+
+.article-comment {
+    margin-left: 50px;
+}
+
+.comment-user {
+    margin-top: 20px;
+    color: #0d85b8;
+}
+
+.user-email {
+    margin-left: 15px;
+    padding: 10px 0px;
+}
+
+.comment-body {
+    padding: 10px;
+    margin: 0 10px 10px 30px;
+    box-shadow: 0 1px 1px;
+}
+
+footer {
+    width: 100%;
+    background-color: #d6d6d6;
+    color: #0c408f;
+    padding: 10px 12px;
+    font: bold 16px Arial;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
